@@ -1,0 +1,70 @@
+.App-title {
+  font-size: 2em;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: blue;
+  color: white;
+  font-size: 1.3em;
+  padding: 8px 14px;
+  border: none;
+  width: 50%;
+}
+
+form div {
+  width: 100%;
+}
+
+label {
+  border-radius: 5px;
+  text-align: center;
+}
+
+label span {
+  border: 2px solid #009929;
+  margin-right: 10px;
+  color: #000;
+  cursor: pointer;
+  padding: 8px;
+  line-height: 3em;
+  border-radius: 10px;
+}
+
+label input {
+  position: absolute;
+  display: none;
+  color: #000 !important;
+}
+
+label input + span {
+  color: #000;
+}
+
+input:checked + span {
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+}
+
+input:checked + span {
+  background-color: #009929;
+  color: #fff;
+}
+
+.error-danger {
+  border: 2px solid red;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.error-success {
+  border: 2px solid #009929;
+  padding: 8px;
+  font-size: 14px;
+}
